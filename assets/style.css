@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', sans-serif;
+    color: rgb(247, 246, 243);
+    
+}
+
+body {
+    background: black;
+}
+
+#brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar img {
+    height: 100%;
+}
+
+
+
+.container {
+    margin-top: 7.5vh;
+    max-width: 100vw;
+    max-height: 65vh;
+}
+
+.mid-container {
+    text-align: center;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.iframe-container{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* news section - minmax needs fixing */
+
+.wrapper-modal {
+    max-width: 80vw;
+    padding: 4rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));    
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+}
+
+.container-modal {
+    border: 1px solid whitesmoke;
+    text-align: center;
+    background-color: #32322E;
+}
+
+.container-modal .modal-title {
+    border-bottom: 1px solid whitesmoke;
+    height: 5rem;
+    font-size: 2vw;
+}
+
+.container-modal img {
+    width: 100%;
+    height: 375px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 979px) {
+    div.container-modal h4 {
+    font-size: 18px;
+    
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 978px) {
+    div.container-modal h4 {
+    font-size: 12px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 575px) {
+    div.container-modal h4 {
+    font-size: 10px;
+    
+  }
+}
+
+/* News section */
+
+.section-title {
+    background-image: url('img/backgroundtitles.jpeg');
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    padding: 5px;
+}
+
+.modal-dialog .modal-content {
+    background-color: #32322E;
+}
+
+.modal-dialog .modal-content ul {
+    list-style-type: none;
+}
+
+.container-modal .portrait-img {
+    width: 80%;
+    height: 100%;
+}
+
+
+
+
+/*footer */
+
+.footer-wrapper {
+    background-image: url('img/backgroundtitles.jpeg');
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.svg-inline--fa {
+  vertical-align: -0.200em;
+}
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.5625rem;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+/* guitar page */
+
+.product {
+    max-width: 80vw;
+    margin: 0 auto;
+    border: 1px solid goldenrod;
+    padding: 5px;
+}
+
+.wrapper {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.product-boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));    
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    }
+
+.product-boxes img {
+    width: 100%;
+}
+
+.box {
+    border: 1px white solid;
+}
+
+.box h4 {
+    border-bottom: 1px white solid;
+    text-align: right;
+    padding: 5px;
+}
+
+.box p {
+    border-top: 1px white solid;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .display-boxes {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
+
+/* Main order page */
+
+.top-container {
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+}
+
+.title-top {
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+
+.mid-col {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2.5em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+}
+
+.box-mid-col-left {
+    background: url('../assets/img/plaugisdarkbg.jpeg');
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+.box-mid-col-right {
+    background-image: url('assets/img/plaugisdarkbg.jpeg');
+    border: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+/* place guitar order page */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  color: #000;
+}
+
+input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  color: #000;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+
+.product {
+    margin-bottom: 50px;
+}
+.order-container {
+    max-width: 60%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 20px;
+}
+
+.guitar-form {
+    border: 1px solid #45a049;
+    padding: 20px;
+}
+
+.card-description {
+    margin: 10px 0 10px;
+}
