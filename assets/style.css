@@ -373,3 +373,22 @@ input[type=submit]:hover {
 .card-description {
     margin: 10px 0 10px;
 }
+
+/* gallery */
+
+/* fancybox */
+
+.fancybox {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+.fancybox .fancybox-item img {
+    width: 100%;
+}
