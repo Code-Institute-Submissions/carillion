@@ -4,14 +4,15 @@
   <title>Carillion Guitars</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Carillion Guitars">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Ross McLennan">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-
+<!-- NAVBAR -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -20,25 +21,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a id="brand" class="navbar-brand" href="#"><img src="../assets/img/trimlogo.png"></a>
+      <a id="brand" class="navbar-brand" href="index.html"><img src="../assets/img/navbarlogo.jpeg"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
         <li><a href="guitars.html">Guitars</a></li>
-        <li><a href="bass.html">Bass</a></li>
-        <li><a href="order.html">Order</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </div>
   </div>
 </nav>
-   
-
-
-
-    <!----Carousel---->
+<!-- NAVBAR END-->
+<!-- Carousel -->
 <div class="container">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -48,28 +44,21 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-
-      <div class="item active">
-        <img src="assets/img/carillionbanner.jpg" alt="vman slipknot" style="width:100%;">
-      </div>
-
+        <div class="item active">
+            <img src="assets/img/carillionbanner.jpg" alt="vman slipknot" style="width:100%;">
+        </div>
       <div class="item">
         <img src="assets/img/carilliondyscarnbg.jpg" alt="dyscarnate" style="width:100%;">
       </div>
-    
       <div class="item">
         <img src="assets/img/briannile.jpg" alt="brian kingsland nile" style="width:100%;">
       </div>
-
       <div class="item">
         <img src="assets/img/ianjekelisbg.jpg" alt="ian jekelis aborted" style="width:100%;">
       </div>
-  
     </div>
-
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -82,37 +71,30 @@
   </div>
 </div>
 <br>
-
-    <!---Chris and info section---->
-
-    <div class="mid-container">
-                <p>Welcome to Carillion Guitars - high end custom built guitars designed for serious players who demand quality materials, precision and the ability to add their own personal unique flair to their instrument. Each guitar is handmade from inception to completion in our workshop in Surrey, England and are shipped worldwide.</p>
-                <p>We are proud to have supplied instruments to members of prolific bands such as Slipknot, Nile, Aborted, Cytotoxin, Viscera and many others.</p>
-                <p>On this page you can keep up with the latest Carillion Guitars news, view our latest build galleries and also place enquiries for your own custom build project.</p>
-                <p>Chris Delia - Owner and Chief Luthier.</p>
-    </div>
-
-    <!--VIDEO EMBED-->
-    <div class="iframe-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/orXRt8WMbKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-
-
+<!---Chris and info section---->
+<div class="mid-container">
+    <p>Welcome to Carillion Guitars - high end custom built guitars designed for serious players who demand quality materials, precision and the ability to add their own personal unique flair to their instrument. Each guitar is handmade from inception to completion in our workshop in Surrey, England and are shipped worldwide.</p>
+    <p>We are proud to have supplied instruments to members of prolific bands such as Slipknot, Nile, Aborted, Cytotoxin, Viscera and many others.</p>
+    <p>On this page you can keep up with the latest Carillion Guitars news, view our latest build galleries and also place enquiries for your own custom build project.</p>
+    <p>Chris Delia - Owner and Chief Luthier.</p>
+</div>
+<!--VIDEO EMBED-->
+<div class="iframe-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/orXRt8WMbKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <!---News Seection---->
 <div class="section-title">
     <h4>News</h4>
 </div>
-
 <div class="wrapper-modal">
     <!--Modal Left-->
-    <div class="container-modal">
+    <div class="card">
         <div class="modal-title">
             <h4>New Enigma build</h4>
         </div>
         <div class="left-modal-image">
-            <img src="assets/img/boxpic.png" alt="">
+            <img src="assets/img/boxpic.png" alt="carillion guitar enigma">
         </div>
-        <p>View specs on this latest multiscale Enigma fresh off the bench at the workshop</p>
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal">Read More</button>
 
@@ -124,7 +106,7 @@
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <h6 class="modal-title">New Enigma build</h6>
-                        <img src="assets/img/newenigma.jpg">
+                        <img src="assets/img/newenigma.jpg" alt="carillion guitar enigma">
                     </div>
                     <div class="modal-body">
                     <h5>Full Specs:</h5>
@@ -142,7 +124,7 @@
                             <li>Oil finished.</li>
                         </ul>
                     </div>
-
+                    <!-- Modal footer -->
                     <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
@@ -152,14 +134,13 @@
         </div>
     </div>
     <!--Modal mid-->
-    <div class="container-modal">
+    <div class="card">
         <div class="modal-title">
-            <h4>Viscera announce tour w/TBDM and RoS</h4>
+            <h4>Martino Garattoni joins the family</h4>
         </div>
         <div class="mid-modal-image">
-            <img src="assets/img/verminoustourposter.jpg" alt="">
+            <img src="assets/img/neob.jpg" alt="ne obliscaris">
         </div>
-        <p>Carillion Artist - Ross McLennan and his band Viscera have announced European tour dates with The Black Dahlia Murder</p>
         <!-- Trigger the modal with a button -->
         <div class="button-modal">
             <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal2">Read More</button>
@@ -171,10 +152,10 @@
                 <div class="modal-content">
                         <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Viscera announce tour w/TBDM and RoS</h4>
+                        <h4 class="modal-title">New Artist - Martino Garattoni</h4>
                     </div>
                     <div class="modal-body">
-                    <img class="portrait-img" src="assets/img/verminoustourposter.jpg">
+                    <img class="portrait-img" src="assets/img/neob.jpg" alt="martino garattoni">
                     <p>The band have announced the ‘Verminous European Tour 2021‘ is coming next January. It sees the band performing a massive 42 shows around Europe and the UK. The tour will kick off on 6th January in Essen, and finish 20th February in Stuttgart. They will be joined by rising acts Rings of Saturn and Viscera throughout the whole tour.</p>
                     </div>
 
@@ -182,63 +163,56 @@
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
-            
             </div>
         </div>
     </div>
     <!--Modal right-->
-    <div class="container-modal">
+    <div class="card">
         <div class="modal-title">
             <h4>New Cytotoxin!</h4>
         </div>
         <div class="right-modal-image">
-            <img src="assets/img/jason.png" alt="">
-        </div>
-        <p>Check out the new single from Carillion Artist Jason Melodonie's band, Cytotoxin, right here</p>
-        
+            <img src="assets/img/jasonmelo.png" alt="jason Cytotoxin">
+        </div>        
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#myModal-right">Read More</button>
-
         <!-- Modal -->
         <div class="modal fade" id="myModal-right" role="dialog">
             <div class="modal-dialog">
-             <!-- Modal content-->
+                <!-- Modal content-->
                 <div class="modal-content">
                         <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">New Cytotoxin is here!</h4>
-                    </div>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">New Cytotoxin is here!</h4>
+                        </div>
                     <div class="modal-body">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cJgiXfSKdXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/cJgiXfSKdXY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-
+                    <!-- Modal Footer -->
                     <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
-            
             </div>
         </div>
     </div>
 </div>   
 <!---FOOTER--->
-
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
-
 <div class="footer-wrapper">
     <footer>
         <p>Copyright © Carillion Guitars 2020. All rights reserved.</p>
                     <div class="rounded-social-buttons">
-                        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="social-button facebook" href="https://www.facebook.com/carillionguitars" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-button twitter" href="https://www.twitter.com/carillionaxes" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
-                        <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="social-button youtube" href="https://www.youtube.com/channel/UCbA8CXVYCarcxqiaDScaLsg" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a class="social-button instagram" href="https://www.instagram.com/carillionguitars" target="_blank"><i class="fab fa-instagram"></i></a>
                     </div>
     </footer>
 </div>
 <!--END OF FOOTER-->  
-
-<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
