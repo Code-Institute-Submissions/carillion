@@ -132,8 +132,13 @@ body {
     height: 100%;
 }
 
+.btn-info {
+    background-color: rgb(233, 212, 161);
+    border: none;
+}
+
 .modal-footer .btn {
-    background-color: goldenrod;
+    background-color: rgb(231, 211, 161);
 }
 
 
@@ -243,7 +248,7 @@ body {
     max-width: 80vw;
     margin: 0 auto;
     border: 1px solid goldenrod;
-    padding: 2.5rem;
+    padding: 1rem;
     text-align: center;
 }
 
@@ -277,6 +282,7 @@ body {
 .box p {
     border-top: 1px white solid;
     text-align: center;
+    padding: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -417,6 +423,11 @@ input[type=submit]:hover {
 .contact-wrapper .section-title {
     width: 100%;
     margin-bottom: 2.5rem;
+}
+
+.main-box {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .contact-wrapper .contacts li {
