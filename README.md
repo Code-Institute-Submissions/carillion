@@ -1,3 +1,5 @@
+![](assets/img/preview.png)
+
 # Carillion Guitars
 
 The purpose of this project was to create a static web-page for a local guitar luthier, Carillion Guitars. 
@@ -94,47 +96,52 @@ I would like to add a cost-calculator, sound clips of the guitars, a more extens
 
 ## Testing
 
-1. navbar
-    1. Test all links on each page
+I tested the site to check for any navigation errors such as broken links or buttons that failed to open modals. I also tested that the gallery section displayed correctly and had no issues with slideshow or opening larger images from thumbnails. 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Devices Used
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+- Macbook Pro 13.5 Retina
+- Samsung s10+
+- iPhone 8
+- Routed desktop via 32in Curved Samsung HD Media Screen 
+- Samsung A6 Tablet
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### Broswers Used
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+- Google Chrome
+- Mozilla Firefox
+- Safari
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+### Bugs 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I struggled to get a good size for the modal inclusion of a video relating to the right modal. Opening the modal shows a very small version of the video. I was unable to find a solution to showcasing what I wanted in this section - I would in future replace this with perhaps more text and an external link to listen/view media relating to this. 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+### Validation
 
-## Deployment
+All files passed validation testing at https://validator.w3.org/nu/#textarea 
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+### Deployment
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+https://rossmclenny.github.io/carillion/ my page is hosted here. 
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+I was able to deploy the website here by going to my repository in which all the files are saved, clicking on settings at the top and scrolling down to the heading GitHub Pages. Underneath the heading there is a source and I chose master branch from the dropdown which allows you to host the website on GitHub Pages.
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+### Content and Media
 
-### Media
-- The photos used in this site were obtained from ...
+I used quotes from artists marked in the images of the carousel from both direct conversations and also their own social media postings. 
+
+Images were obtained and used with permission from Will Satchwell Photography and also from Chris Delia, owner of Carillion Guitars.
+
+Artwork for carousel was edited by myself with artwork from Aborted, Dyscarnate and Nile with permission and received via email. 
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- Code Institute
+- w3Schools - for the navbar layout, modals and footer
+- Bootstrap - for the carousel 
+- Traversy Media - Brad Travers - for inspiration and content relating to modal displays
+- Fancybox - for the gallery layout 
+
+

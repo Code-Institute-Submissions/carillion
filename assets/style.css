@@ -258,6 +258,7 @@ body {
 }
 
 .product-boxes {
+    overflow-wrap: break-word;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));    
     grid-column-gap: 2em;
