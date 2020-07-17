@@ -140,6 +140,13 @@ body {
     background-color: rgb(231, 211, 161);
 }
 
+.modal-content.responsive {
+    max-width: 100%;
+}
+
+.modal-body iframe {
+    max-width: 100%;
+}
 
 
 
