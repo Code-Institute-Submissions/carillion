@@ -31,38 +31,31 @@ In this section, you should go over the different parts of your project, and des
  
 ### Existing Features
 
-Homepage
+#### Homepage
 
-Carousel -
+##### Carousel -
 The homepage carousel shows quickly the range of artists that are on the artist roster. These names should be instantly recognisable to anyone who has come to the site. 
 (Carousel tagline/about - this supports the above carousel and gives a small supportive statement to affirm the quality of the brand)
 Included in the images is a quoted review from each artist.  
 
-Iframe Video;
+##### Iframe Video;
 The purpose of the video is to engage users and to encourage them to view the use of one of the guitars with a well known artist. 
 
-Modals (news);
+##### Modals (news);
 The last section of the homepage is modals that the user an click on to again support the tight affiliation of the company with the leading players in the target market. In future updates of this project I would probably either remove this section or link directly to a social media post.
 
-Guitars
+##### Guitars
 
 Image cards
 I provided images to the types of guitars available at Carillion. Design-wise it was difficult to know what to implement here as there is no standard product to offer as each item is one-of-a-kind and this would be covered in the gallery. In future I would implement a 'cost estimator' style template where the user could pick from different options and it would generate an estimated cost. 
 
-Gallery
+##### Gallery
 
 Fancybox 
 I used fancybox here to implement my gallery which allows the user to see thumbnails, click the item to view larger image and also start a slideshow.
 
 Nav's and Footers
 All pages have the same navbar fixed to the top of the screen and a footer with links to the social media of the company.
-
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 - Once I become more proficient with new languages and methods there is a lot I would like to do with this project. 
