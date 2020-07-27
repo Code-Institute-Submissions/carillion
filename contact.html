@@ -49,18 +49,30 @@
     </div>
 </div> 
 
- <div class="contact-form">
-        <form id="contact-form" method="post" action="contact-form-handler.php">
-            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
-            <br>
-            <input name="email" type="email" class="form-control" placeholder="Your Email" required>
-            <br>
-            <textarea name="message" class="form=control" placeholder="Message" rows="4" required></textarea>
-            <br>
-            <input type="submit" class="form-control submit" value="Send Message">
-        </form>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col">
+                <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+                <h5 class="uppercase text-center">Let's work together!</h5>
 
-    </div>
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Project description" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
 <!--FOOTER-->
 <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 <div class="footer-wrapper">
