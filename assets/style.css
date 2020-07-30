@@ -119,7 +119,7 @@ body {
     padding: 5px;
 }
 
-.card-title {
+.modal-title {
     height: 2.5rem;
     border-bottom: 1px solid whitesmoke;
     line-height: 2.5rem;
@@ -153,6 +153,12 @@ body {
 
 .modal-body iframe {
     max-width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    div.modal-header h4 {
+    font-size: 20px;
+  }
 }
 
 
