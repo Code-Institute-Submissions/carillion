@@ -21,15 +21,9 @@ Therefore I included;
 - Gallery showing the quality of recent work by the company
 - Social links so potential customers can keep up with latest posts
 
-
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+I did not, regretably, use a wireframe when making this project. Which has been a very steep learning curve. In not using a wireframe I ended up running into lots of dead ends of having to back track on my design, or scrapping sections which were redundant or surplus to requirement. 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
 
 #### Homepage
 
@@ -61,6 +55,8 @@ All pages have the same navbar fixed to the top of the screen and a footer with 
 - Once I become more proficient with new languages and methods there is a lot I would like to do with this project. 
 
 I would like to add a cost-calculator, sound clips of the guitars, a more extensive video section that demonstrates the guitars. 
+
+I will continue to work on this project as I would enjoy making a working order form and more interactive elements.
 
 ## Technologies Used
 
@@ -108,6 +104,8 @@ I tested the site to check for any navigation errors such as broken links or but
 ### Bugs 
 
 I struggled to get a good size for the modal inclusion of a video relating to the right modal. Opening the modal shows a very small version of the video. I was unable to find a solution to showcasing what I wanted in this section - I would in future replace this with perhaps more text and an external link to listen/view media relating to this. 
+
+It is worth noting I had followed an older tutorial on some sections of this website which had included Bootstrap 3, not 4. I would be more aware of the differences for any project moving forward.
 
 ### Validation
 
